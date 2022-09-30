@@ -1,0 +1,22 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "To Do List with ReactJS",
+  "main": "index.html",
+  "repository": "-",
+  "author": "fransiscuschandra.fc@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/preset-react": "^7.18.6",
+    "lite-server": "^2.6.1",
+    "react": "17",
+    "reactdom": "^2.0.0"
+  },
+  "scripts": {
+    "build": "babel src --out-dir public",
+    "serve": "lite-server --baseDir public",
+    "start": "yarn build & yarn serve"
+  }
+}
